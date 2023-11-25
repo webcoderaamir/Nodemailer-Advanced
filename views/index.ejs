@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Nodemailer</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <section>
+
+    <div class="form-box">
+
+      <div class="form-value">
+
+        <form action="/send-mail" method="post">
+
+          <h2 >Live Email App</h2>
+          <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" name="sender" required><label>youremail@example.com</label>
+          </div>
+          <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input type="email" name="reciever" required><label>friendemail@example.com</label>
+          </div>
+          <div class="inputbox">
+            <input type="text" name="subject" required><label>Write your subject</label>
+          </div>
+          <div class="inputbox">
+            <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+            <input type="text" name="message" required><label>Write your message</label>
+          </div>
+          <button class="submit enableEthereumButton">Send</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ion-icon installation: Start -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!--ion-icon installation: End-->
+
+</body>
+
+
+</html>

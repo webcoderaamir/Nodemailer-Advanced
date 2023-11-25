@@ -1,0 +1,8 @@
+1. create app ✅
+2. install nodemailer ✅
+3. create homepage ✅
+4. make /send-mail route (post) ✅
+5. go and read the documentation of nodemailer and copy relevant code for your app (nodemailer in node js -> w3school) ✅
+6. replace 'youremail@gmail.com' to your email address ✅
+7. generate app password ✅
+8. replace 'yourpassword' to your app password ✅
